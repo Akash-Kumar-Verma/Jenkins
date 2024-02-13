@@ -10,7 +10,7 @@ public class Demo {
 	
 public void Test1() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\akashverma02\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\akashverma02\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://github.com/");
 		driver.close();
